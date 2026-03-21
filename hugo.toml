@@ -1,7 +1,7 @@
 baseURL = "https://colaresamanda.github.io/blog/"
-languageCode = "pt-br"
-defaultContentLanguage = "pt-br"
-title = "PsycheMap Blog"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "PsycheMap Analytics"
 theme = "PaperMod"
 paginate = 6
 
@@ -9,7 +9,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-enableEmoji = true
+enableEmoji = false # Disabled per your preference for a clean, professional look
 
 [minify]
   disableXML = true
@@ -17,21 +17,22 @@ enableEmoji = true
 
 [params]
   env = "production"
-  title = "PsycheMap Blog"
-  description = "Explorando a interseção entre psicologia, ciência de dados e saúde emocional."
-  keywords = ["psicologia", "ciência de dados", "saúde emocional", "diário emocional", "bem-estar mental", "PsycheMap"]
+  title = "PsycheMap Analytics"
+  description = "Quantitative analysis of emotional states and predictive modeling applied to mental health."
+  keywords = ["Data Science", "Data Analysis", "Quantitative Psychology", "Machine Learning", "Python", "Mental Health", "PsycheMap"]
   author = "Amanda Colares"
-  DateFormat = "2 de January de 2006"
+  DateFormat = "January 2, 2006"
 
   defaultTheme = "dark"
   disableThemeToggle = false
 
+  # Technical post features
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowWordCount = false
+  ShowWordCount = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
   disableSpecial1stPost = false
@@ -39,39 +40,39 @@ enableEmoji = true
   comments = false
   hidemeta = false
   hideSummary = false
-  showtoc = true
-  tocopen = false
+  showtoc = true 
+  tocopen = true
 
   [params.assets]
     disableHLJS = false
 
   [params.label]
-    text = "🧠 PsycheMap Blog"
+    text = "PsycheMap Analytics"
     iconHeight = 35
 
   [params.profileMode]
     enabled = true
-    title = "PsycheMap Blog"
-    subtitle = "Explorando a mente através de dados ✨"
-    imageUrl = ""
+    title = "PsycheMap Data Lab"
+    subtitle = "Researching emotional cycles through algorithms, statistical modeling, and behavioral data."
+    imageUrl = "" 
     imageWidth = 120
     imageHeight = 120
 
     [[params.profileMode.buttons]]
-      name = "📝 Posts"
+      name = "Publications"
       url = "posts"
 
     [[params.profileMode.buttons]]
-      name = "🏷️ Tags"
-      url = "tags"
+      name = "Insights"
+      url = "categories/insights" 
 
     [[params.profileMode.buttons]]
-      name = "📚 Categorias"
-      url = "categories"
+      name = "Methodology"
+      url = "about"
 
   [params.homeInfoParams]
-    Title = "Olá! 👋"
-    Content = "Bem-vindo ao PsycheMap Blog — onde psicologia encontra ciência de dados."
+    Title = "Evidence-Based Insights"
+    Content = "Welcome to the PsycheMap repository. This platform explores human behavior through the lens of metrics, predictive models, and data science."
 
   [[params.socialIcons]]
     name = "github"
@@ -98,33 +99,34 @@ enableEmoji = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+# Clean and professional navigation
 [[menu.main]]
   identifier = "posts"
-  name = "📝 Posts"
+  name = "Publications"
   url = "/posts/"
   weight = 10
 
 [[menu.main]]
-  identifier = "categories"
-  name = "📚 Categorias"
-  url = "/categories/"
+  identifier = "insights"
+  name = "Insights"
+  url = "/categories/insights/"
   weight = 20
 
 [[menu.main]]
-  identifier = "tags"
-  name = "🏷️ Tags"
-  url = "/tags/"
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
   weight = 30
 
 [[menu.main]]
   identifier = "search"
-  name = "🔍 Buscar"
+  name = "Search"
   url = "/search/"
   weight = 40
 
 [[menu.main]]
   identifier = "about"
-  name = "👩‍💻 Sobre"
+  name = "About the Project"
   url = "/about/"
   weight = 50
 

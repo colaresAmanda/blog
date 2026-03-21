@@ -1,6 +1,6 @@
 ---
-title: "🔍 Buscar"
+title: "🔍 Search"
 layout: "search"
-summary: "Buscar posts"
-placeholder: "Digite para buscar..."
+summary: "Search posts"
+placeholder: "Type to search..."
 ---
