@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on PsycheMap Blog</title>
+    <link>https://colaresamanda.github.io/blog/tags/</link>
+    <description>Recent content in Tags on PsycheMap Blog</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://colaresamanda.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autoconhecimento</title>
+      <link>https://colaresamanda.github.io/blog/tags/autoconhecimento/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://colaresamanda.github.io/blog/tags/autoconhecimento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diário Emocional</title>
+      <link>https://colaresamanda.github.io/blog/tags/di%C3%A1rio-emocional/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://colaresamanda.github.io/blog/tags/di%C3%A1rio-emocional/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introdução</title>
+      <link>https://colaresamanda.github.io/blog/tags/introdu%C3%A7%C3%A3o/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://colaresamanda.github.io/blog/tags/introdu%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psicologia</title>
+      <link>https://colaresamanda.github.io/blog/tags/psicologia/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://colaresamanda.github.io/blog/tags/psicologia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychemap</title>
+      <link>https://colaresamanda.github.io/blog/tags/psychemap/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://colaresamanda.github.io/blog/tags/psychemap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Saúde Mental</title>
+      <link>https://colaresamanda.github.io/blog/tags/sa%C3%BAde-mental/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://colaresamanda.github.io/blog/tags/sa%C3%BAde-mental/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

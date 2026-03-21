@@ -1,0 +1,88 @@
+/* Custom styles for PsycheMap Blog */
+
+.profile .profile_inner h1 {
+  background: linear-gradient(135deg, #a855f7, #6366f1, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.5rem;
+}
+
+.profile .profile_inner .button {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.profile .profile_inner .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3);
+}
+
+.dark .post-entry {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.dark .post-entry:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(168, 85, 247, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(168, 85, 247, 0.15);
+}
+
+.post-entry {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.post-content pre {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.post-tags a {
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.post-content h2 {
+  border-bottom: 2px solid rgba(168, 85, 247, 0.2);
+  padding-bottom: 0.3em;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #a855f7;
+  background: rgba(168, 85, 247, 0.05);
+  border-radius: 0 12px 12px 0;
+  padding: 1em 1.5em;
+}
+
+.social-icons a {
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+  color: #a855f7;
+}
+
+.main {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.nav {
+  backdrop-filter: blur(10px);
+}
