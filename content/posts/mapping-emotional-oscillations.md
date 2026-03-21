@@ -7,7 +7,7 @@ author: "Amanda Colares"
 showToc: true
 TocOpen: true
 cover:
-    image: "/images/cover-analysis.png" # Path to your cover image
+    image: "https://github.com/user-attachments/assets/11032fb4-99d0-451c-9bc5-4a88c0ba653a" # Path to your cover image
     alt: "Visualization of Emotional Oscillations"
     caption: "Quantitative mapping of mood peaks and valleys"
     relative: false # Set to true if using page bundles
@@ -68,7 +68,11 @@ By measuring the transition from a "Peak" (Top) to a "Valley" (Bottom), the **Me
 
 
 
-{{< figure src="/images/chart.png" title="Emotional Oscillations Over 144 Days" caption="Visualization of emotional peaks and valleys tracked from 2025-2026." alt="A chart displaying peaks and valleys of mood data." >}}
+
+
+<img width="1504" height="844" alt="Screenshot from 2026-03-20 20-42-34" src="https://github.com/user-attachments/assets/11032fb4-99d0-451c-9bc5-4a88c0ba653a" />
+
+
 
 | Peak Start | Valley End | Days to Fall | Intensity |
 | :--- | :--- | :--- | :--- |
