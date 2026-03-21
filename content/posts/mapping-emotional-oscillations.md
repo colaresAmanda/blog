@@ -70,8 +70,6 @@ By measuring the transition from a "Peak" (Top) to a "Valley" (Bottom), the **Me
 
 
 
-<img width="1504" height="844" alt="Screenshot from 2026-03-20 20-42-34" src="https://github.com/user-attachments/assets/11032fb4-99d0-451c-9bc5-4a88c0ba653a" />
-
 
 
 | Peak Start | Valley End | Days to Fall | Intensity |
