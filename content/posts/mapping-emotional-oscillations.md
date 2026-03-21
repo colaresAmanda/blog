@@ -6,6 +6,11 @@ categories: ["Insights", "Publications"]
 author: "Amanda Colares"
 showToc: true
 TocOpen: true
+cover:
+    image: "/images/cover-analysis.png" # Path to your cover image
+    alt: "Visualization of Emotional Oscillations"
+    caption: "Quantitative mapping of mood peaks and valleys"
+    relative: false # Set to true if using page bundles
 ---
 
 After approximately **144 days** of consistent data collection, resulting in **360 unique records**, this study synthesizes the initial findings from the **PsycheMap** project. By applying statistical analysis to longitudinal mood tracking, the research aims to move beyond anecdotal evidence into quantifiable psychological trends.
@@ -62,6 +67,8 @@ By measuring the transition from a "Peak" (Top) to a "Valley" (Bottom), the **Me
 ### 4. Comprehensive Decay Observations
 
 
+
+{{< figure src="/images/chart.png" title="Emotional Oscillations Over 144 Days" caption="Visualization of emotional peaks and valleys tracked from 2025-2026." alt="A chart displaying peaks and valleys of mood data." >}}
 
 | Peak Start | Valley End | Days to Fall | Intensity |
 | :--- | :--- | :--- | :--- |
